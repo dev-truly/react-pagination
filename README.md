@@ -1,3 +1,6 @@
+# 설명 블로그
+[https://dev-truly.tistory.com/entry/React-Pagination-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%9E%91%EC%84%B1-%ED%95%98%EA%B8%B0](도찐개찐 블로그-[React] Pagination 페이징 작성 하기)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
