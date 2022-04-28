@@ -1,0 +1,45 @@
+.page-list-group {
+    display: inline-block;
+}
+.page-list-group > li {
+    list-style: none;
+    float:left;
+    padding: 6px 7px;
+    margin: 5px;
+    line-height: 19px;
+    font-size: 15px;
+    /*border:solid 1px lightgray;*/
+    border-radius: 5px;
+    height:20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px lightgray;
+}
+
+.page-list-group > li.page-number {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.page-list-group > li:hover,
+.page-list-group > li.current-page {
+    padding: 5px 6.5px 5px 6.5px;
+    font-weight: bold;
+    border:solid 1px lightgray;
+}
+
+.page-list-group > li.current-page {
+    color: cornflowerblue;
+    cursor: inherit;
+}
+
+.page-list-group > li:hover:not(.current-page) {
+    color: red;
+    border:solid 1px lightgray;
+}
+
+.page-list-group > li.page-first:hover,
+.page-list-group > li.page-previous:hover,
+.page-list-group > li.page-next:hover,
+.page-list-group > li.page-last:hover {
+    padding: 5px 6px 5px 6px;
+}
